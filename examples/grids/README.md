@@ -24,3 +24,13 @@ This project has used pipenv for dependency mamangement, please ensure you have 
 
     # Caution, this will cause Eva to move!
     $ pipenv run main.py
+
+## Project Description
+
+### grid2d.py
+
+This file contains the Grid2D class, given grid corners and rows and columns, it will output a series of grid positions.
+
+### main.py
+
+This contains logic to connect to an Eva, makes a Grid2D and then moves the robot to each point in the grid.
