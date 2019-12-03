@@ -4,7 +4,6 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-pylint = "*"
 
 [packages]
 automata = {git = "https://github.com/automata-tech/eva_python_sdk.git",ref = "development"}
