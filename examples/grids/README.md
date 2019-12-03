@@ -34,3 +34,4 @@ This file contains the Grid2D class, given grid corners and rows and columns, it
 ### main.py
 
 This contains logic to connect to an Eva, makes a Grid2D and then moves the robot to each point in the grid.
+This is a good starting place if you are looking to create your own custom grid logic.
