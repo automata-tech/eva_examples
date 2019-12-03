@@ -35,3 +35,9 @@ This file contains the Grid2D class, given grid corners and rows and columns, it
 
 This contains logic to connect to an Eva, makes a Grid2D and then moves the robot to each point in the grid.
 This is a good starting place if you are looking to create your own custom grid logic.
+
+## Implementation Notes
+
+This example uses a series of goto's and calculates the joint angles for each grid position between each goto.
+This is for the sake of keeping the example as simple as possible but is slow as the inverse kinamatics calculation takes time.
+To speed up the operation, either use a toolpath or calculate the inverse kinamatics prior to or during movement.
