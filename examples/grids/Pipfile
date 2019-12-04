@@ -6,7 +6,7 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-automata = {git = "https://github.com/automata-tech/eva_python_sdk.git",ref = "development"}
+evasdk = "~=2.0.0"
 
 [requires]
 python_version = "3.6"

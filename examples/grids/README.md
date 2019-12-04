@@ -23,7 +23,7 @@ This project has used pipenv for dependency mamangement, please ensure you have 
     $ pipenv install
 
     # Caution, this will cause Eva to move!
-    $ pipenv run main.py
+    $ pipenv run python main.py
 
 ## Project Description
 
