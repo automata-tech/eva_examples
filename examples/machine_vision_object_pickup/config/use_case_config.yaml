@@ -1,60 +1,56 @@
-# SETUP YAML file for Machine Vision Example - December 2019
+# SETUP YAML file for Machine Vision Example
 
 EVA:
   comms:
-    host: '0.0.0.0'
-    token: 'abcd1234'
+    host: '0.0.0.0'   # USER DEFINED
+    token: 'abcd1234' # USER DEFINED
   end_effector:
-    payload: 0        # payload [kg]
-    length: 0         # length of tool [m]
-    offset:           # ee offset in ee-frame  [m]
+    payload: 0        # payload [kg] - USER DEFINED
+    length: 0         # length of tool [m] - USER DEFINED
+    offset:           # ee offset in ee-frame [m] - USER DEFINED
       - 0
       - 0
       - 0
-  hover_height: 0     # elevation of idle z axis wrt to the object [m]
-  surface_height: 0   # elevation of the pickup surface wrt to the robot [m, signed]
+  hover_height: 0     # elevation of idle z axis wrt to the object [m] - USER DEFINED
+  surface_height: 0   # elevation of the pickup surface wrt to the robot [m, signed] - USER DEFINED
 
 TCP:
-  server: '0.0.0.0'
-  port: 0
+  server: '0.0.0.0'   # USER DEFINED
+  port: 0             # USER DEFINED
 
 objects:
-  names:              # object names
+  names:              # object names - DO NOT MODIFY THIS
     - 'C'
     - 'M'
     - 'R'
-  heights:            # object thickness [m]
-    C: 0
-    M: 0
-    R: 0
-  weights:            # object weight [k]
+  heights:            # object thickness [m] - USER DEFINED
     C: 0
     M: 0
     R: 0
 
 waypoints:
-  joints_cal_zero:     # joints @ (0,0) of calibration board [rad]
+  joints_cal_zero:     # joints @ (0,0) of calibration board [rad] - USER DEFINED
     - 0
     - 0
     - 0
     - 0
     - 0
     - 0
-  joints_guess:        # joints guess for pickup/hover position [rad]
+  joints_guess:        # joints guess for pickup/hover position [rad] - USER DEFINED
     - 0
     - 0
     - 0
     - 0
     - 0
     - 0
-  joints_home:        # joints for home position [rad]
+  joints_home:        # joints for home position [rad] - USER DEFINED
     - 0
     - 0
     - 0
     - 0
     - 0
     - 0
-  joints_drop:        # joints for drop position [rad]
+  joints_drop:        # joints for drop position [rad] - USER DEFINED
     - 0
     - 0
     - 0
