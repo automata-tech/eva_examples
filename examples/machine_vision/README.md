@@ -9,7 +9,3 @@ This example assumes you have a working machine vison camera. The camera should 
 The example also requires you to measure the x, y, z axis offset of the camera's position relative to Eva's base and the distance between the camera and the 2D plane where the objects will be detected. This example assumes that the camera's axis are aligned with Eva's.
 
 ![Positional picture should be here!](camera_example.png)
-
-## Supported Version
-
-Tested to work with Eva software verision 2.1.x
